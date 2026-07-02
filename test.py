@@ -28,3 +28,6 @@ def get_person(one_person: Person):
 async def fetch_data(url: str) -> dict:
     # 模拟异步请求数据
     return {"url": url, "data": "some data"}    
+def process_data(data: list[dict[str, int]]):
+    for record in data:
+        print(record)
