@@ -24,4 +24,6 @@ class Person :
 
 def get_person(one_person: Person):
     return one_person.name
-         
+        
+def get_persons(people: list[Person]):
+    return [person.name for person in people]   
