@@ -27,3 +27,4 @@ def get_person(one_person: Person):
         
 def get_persons(people: list[Person]):
     return [person.name for person in people]   
+
