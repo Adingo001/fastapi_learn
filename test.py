@@ -25,3 +25,6 @@ class Person :
 def get_person(one_person: Person):
     return one_person.name
          
+async def fetch_data(url: str) -> dict:
+    # 模拟异步请求数据
+    return {"url": url, "data": "some data"}    
