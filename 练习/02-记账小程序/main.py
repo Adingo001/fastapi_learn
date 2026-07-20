@@ -17,7 +17,7 @@ def load_records() -> list[dict]:
     else:
         with open(DATA_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
-    # TODO: 如果 DATA_FILE 不存在，返回 []1
+    # TODO: 如果 DATA_FILE 不存在，返回 []
     #       否则用 open() + json.load() 读出来并返回
     #       提示：DATA_FILE.exists() 可以判断文件是否存在
     
